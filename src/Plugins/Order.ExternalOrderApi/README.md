@@ -60,13 +60,6 @@ Send a JSON request like this:
 }
 ```
 
-### Required Fields
-- `orderNumber`: Your external order ID
-- `grossAmount`: Total order amount
-- `customerEmail`: Customer email address
-- `shipmentAddress`: Shipping address with firstName, lastName, address1, city, and countryCode
-- `lines`: Product items with sku, quantity, and price
-
 ### Responses
 
 **Success (200 OK)**
@@ -111,4 +104,11 @@ All errors are logged in GrandNode's log system.
 
 - The default payment method is Cash On Delivery
 - You can extend the plugin to support other payment methods
-- All operations are logged for troubleshooting
+- Operations are logged for troubleshooting
+
+Images of test
+<img width="1902" height="958" alt="image" src="https://github.com/user-attachments/assets/c2946b11-52aa-4f87-9bb2-a6ffd881c134" />
+
+<img width="1898" height="962" alt="image" src="https://github.com/user-attachments/assets/e5cf3042-f279-420e-9f14-7ac2e428a82c" />
+
+
